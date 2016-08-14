@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body ng-app="app">
+		<div ng-controller="RaceController" ng-init="init()" class="rcorners2">
+			<p ng-bind-html="text" class="highlight"></p>
+			<input ng-change="change()" ng-model="inputWord" data-ng-trim="false" autofocus></input>
+			<p>{{message}}</p>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-sanitize.min.js"></script>
+		<script src="app.js"></script>
+		<script src="RaceController.js"></script>
+	</body>
+</html>
