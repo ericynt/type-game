@@ -29,10 +29,10 @@ function ($scope, $timeout) {
 	};
 	
 	var getTextFromHTML = function (html) {
-		var div = document.createElement("div");
+		var div = document.createElement('div');
 		div.innerHTML = html;
 
-	       	return div.textContent || div.innerText || "";	
+	       	return div.textContent || div.innerText || '';	
 	};
 
 
