@@ -1,4 +1,4 @@
-# type-game
+# typing game
 
 Very basic typing game.
   - records typing speed in words per minute
